@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Aileron-thin', Arial, 'Poppins', sans-serif;
+}
+.w1200 {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+.pr {
+  position: relative;
+}
+.b-lazy {
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.container-fluid .pro-con {
+  font-size: 0.666667rem /* 50/75 */;
+}

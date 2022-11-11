@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>airtok-pod</title>
-    <link rel="stylesheet" href="./css/airtok-pod.css">
+    <link rel="stylesheet" href="./css/airtok-pod.css" media="screen and (min-width:767px)">
+    <link rel="stylesheet" href="./css/airtok-pod-m.css" media="screen and (max-width:750px)">
 </head>
 
 <body>
@@ -96,7 +97,7 @@
                 if (clientWidth <= 750) {
                     docEl.style.fontSize = 75 * (clientWidth / 750) + 'px';
                 } else {
-                    docEl.style.fontSize = '15px';
+                    // docEl.style.fontSize = '15px';
                 }
             };
         if (!doc.addEventListener) return;
